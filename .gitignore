@@ -1,0 +1,20 @@
+# Never commit scan results. They can contain repository mirrors, workflow runs,
+# organization inventory, and secrets from Git history.
+wfx-scan-*/
+audit-scan-*/
+*.tgz
+*.tgz.sha256
+*.tsv
+errors.log
+.api.tmp
+
+# Audit log exports contain personal data.
+*.json
+*.csv
+
+# Local credentials and environment files
+.env
+.env.*
+
+# macOS
+.DS_Store

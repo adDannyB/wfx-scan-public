@@ -1,0 +1,2 @@
+# Use LF line endings for shell scripts so they can run on Unix.
+*.sh text eol=lf
